@@ -1,6 +1,6 @@
 <!-- This is the background video-->
 
-/* video#globe {
+/* video#globe 
 position: fixed;
 top: 50%;
 left: 50%;
@@ -13,8 +13,12 @@ z-index: -100;
 transform: translateX(-50%) translateY(-50%);
 background: url(polina.jpg) no-repeat;
 background-size: cover;
-}
+
  */
-#wrap {
-  background-color:blue;
+.wrapper {
+  background-color: #FF0000;
+}
+
+h3 {
+  color: red;
 }
