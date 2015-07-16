@@ -1,5 +1,17 @@
+/* video#bgvid {
+  width:100%;
+  height:400px;
+} */
 
 video#bgvid {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  width:1000px;
+  height:450px;
+}
+
+/* video#bgvid {
 position: fixed;
 top: 50%;
 left: 50%;
@@ -12,11 +24,12 @@ z-index: -100;
 transform: translateX(-50%) translateY(-50%);
 background: url(../images/background.mp4) no-repeat;
 background-size: cover;
-}
+} */
 
 
 @import url(http://fonts.googleapis.com/css?family=Abel);
 @import url(http://fonts.googleapis.com/css?family=Abel|Inder);
+@import url(http://fonts.googleapis.com/css?family=Abel|Inder|Play);
 
 h1 {
   font-family: 'Abel', sans-serif;
@@ -26,17 +39,9 @@ h1 {
 h3 {
   font-family: 'Inder', sans-serif;
   font-size: 40px;
-  float: right, 40%;
 }
 
 a {
   color: black;
+  font-family: 'Play', sans-serif;
 }
-
-<<<<<<< HEAD
-.down {
-  color:#195C7C;
-}
-
-=======
->>>>>>> 2cd3a54da0faa0b85e4240a17cd4219e2d6815b4
